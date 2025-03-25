@@ -31,6 +31,9 @@ document.addEventListener('DOMContentLoaded', function(){
          display: flex;
          flex-direction: column;
     }); 
-
+    botaoDeAcessibilidade.addEventListener('click', function (){
+        botaoDeAcessibilidade.classList.toggle('rotacao-botao');
+        opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
+       })
 
 });
