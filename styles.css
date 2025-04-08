@@ -8,18 +8,18 @@
     --alto-contraste-link: #ffd700;
 }
 
-body {
+.body {
     background-color: #faeeab;
     font-size: 1rem;
     font-family: 'Montserrat';
 }
 
-header {
+.header {
     background-color: #faeeab;
 }
 
 
-section {
+.section {
     padding-bottom: 5rem;
 }
 
@@ -40,7 +40,6 @@ section {
     height: 606px;
     padding: 40px;
     margin: 0 auto;
-}
 
 /* posicionamento para a imagem à direita */
 .img-inicio {
