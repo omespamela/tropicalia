@@ -151,18 +151,6 @@ h2 {
     top:2rem;
     right:20px;
     z-index: 1000;
-}
-
-.rotacao-botao{ 
-    transform: rotate(-90deg);
-    transform-origin: right center;
-}
-
-.menu-acessibilidade{
-    position: fixed;
-    top:2rem;
-    right:20px;
-    z-index: 1000;
     }
     
     .rotacao-botao{
