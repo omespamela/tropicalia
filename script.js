@@ -25,7 +25,6 @@ botaoDeAcessibilidade.addEventListener('click', function (){
     alternaContraste.addEventListener('click', function(){
     document.body.classList.toggle('alto-contraste')
     })
-    })
 
 ScrollReveal().reveal('#inicio', { delay: 500 });
 ScrollReveal().reveal('#tropicalia', { delay: 500 });
