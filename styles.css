@@ -2,24 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #fc7107;
+    --laranja-claro: #FF862A;
     --alto-contraste-fundo: #000000;
-    --alto-contraste-texto: #e29f0dd2;
+    --alto-contraste-texto: #ffffff;
     --alto-contraste-link: #ffd700;
 }
 
-.body {
-    background-color: #faeeab;
+
+body {
     font-size: 1rem;
     font-family: 'Montserrat';
 }
 
-.header {
-    background-color: #faeeab;
+header {
+    background-color: #ffefef0c;
+ 
+
 }
 
 
-.section {
+section {
     padding-bottom: 5rem;
 }
 
@@ -40,16 +42,15 @@
     height: 606px;
     padding: 40px;
     margin: 0 auto;
+}
 
 /* posicionamento para a imagem à direita */
 .img-inicio {
     position: absolute;
-    right: 7rem;
-    top: 20rem;
-    width: 30rem;
-    height: 32rem;
-    border-radius: 3rem;
-    
+    right: 0;
+    top: 18rem;
+    width: 45rem;
+    height: auto;
 }
 
 
@@ -107,7 +108,7 @@ h2 {
 }
 
 #galeria {
-    background-color: #faeeab;
+    background-color: #FAF4F4;
 
 }
 
@@ -125,12 +126,12 @@ h2 {
 }
 
 .formulario {
-    background-color:#faeeab;
+    background-color: #ffffff;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
     /* Borda arredondada para o formulário */
-    box-shadow: 0 0 10px rgba(141, 124, 47, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* Sombra suave para destacar o formulário */
     font-weight: bold;
 }
@@ -143,74 +144,54 @@ h2 {
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #cc8f0c;
+    background-color: #F1EDEF;
 }
-
 .menu-acessibilidade{
     position: fixed;
     top:2rem;
     right:20px;
     z-index: 1000;
-    }
-    
-    .rotacao-botao{
+}
+.rotacao-botao{
     transform: rotate(-90deg);
     transform-origin: right center;
-    }
-    
-    .opcoes-acessibilidade{
+}
+.opcoes-acessibilidade{
     margin-top:10px;
     display: flex;
     flex-direction: column;
-    }
-    
-    .opcoes-acessibilidade button{
+}
+.opcoes-acessibilidade button{
     margin-bottom: 5px;
-    }
-    
-    .apresenta-lista{
-    display:none;
-    }
-    
-    .alto-contraste{
-    
-    background-color: var(--alto-contraste-
-    fundo);
-    
+}
+.apresenta-lista{
+    display: none;
+}
+.alto-contraste{
+    background-color: var(--alto-contraste-fundo);
     color: var(--alto-contraste-texto);
-    }
-    
-    .alto-contraste header,
+}
+alto-contraste header,
 .alto-contraste footer,
 .alto-contraste .formulario{
-
-background-color: var(--alto-contraste-
-fundo);
-
-color: var(--alto-contraste-texto);
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
 }
-    
-    .alto-contraste .nav-link{
+.alto-contraste .nav-link{
     color: var(--alto-contraste-link);
-    }
-    
-    .alto-contraste .botao-inicio,
-    .alto-contraste .formulario button,
-    .alto-contraste .btn-primary{
+}
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary{
     background-color: var(--alto-contraste-link);
     color: var(--alto-contraste-fundo)
-    }
-    
-    .alto-contraste #tropicalia {
+}
+.alto-contraste #tropicalia {
     background: none;
-    }
-    
-    .alto-contraste #galeria {
-    
-    background-color: var(--alto-contraste-
-    fundo);
-    
-    }
-    
-    .alto-contraste .fundo-galeria {
+}
+alto-contraste #galeria {
+    background-color: var(--alto-contraste-fundo);
+}
+.alto-contraste .fundo-galeria {
     background: none;
+}
